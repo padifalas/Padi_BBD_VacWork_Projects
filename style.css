@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  body Styling */
+body {
+    font-family: Helmet Neue;
+    background-color: #164A41;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4D774E;
+    
+}
+
+header .logo { 
+    font-family: Helmet Neue;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F1B24A; 
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #F1B24A;
+}
+
+/* Hero Section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+.about-text h1 {
+    font-family: Helmet Neue;
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about h2{
+    color: #F1B24A;
+    font-family: Helmet Neue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.hero-images img {
+    max-width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Projects Section */
+.Projects {  /* heading */
+    text-align: center;
+    font-family: "Helmet Neue";
+    color: #F1B24A;
+    padding: 20px;
+}
+
+.Projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #F1B24A;
+}
+
+
+.myProject-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    width: 200px;
+    text-align: center;
+} 
+.project-item img {
+    width: 100%;
+    border: 2px solid #d4b88f;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.Projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    font-family: "Helmet Neue";
+    color: #F1B24A;
+    padding: 20px;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #F1B24A;
+}
+
+/* has the three columns */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+/* styling for the columns*/
+.skills-column {
+    flex: 1;
+    text-align: left; 
+    max-width: 300px;
+}
+
+.skills-column h3 {
+    font-size: 1.5em;
+    font-family: "Helmet Neue";
+    margin-bottom: 15px;
+    color: #F1B24A;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-column li {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4D774E;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #F1B24A;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
